@@ -35,6 +35,11 @@ body {
   line-height: 1em;
 }
 
+@media screen and (max-width: 500px){ 
+  .letters{
+    font-size: 7vw;  
+  }
+}
 
 .lead{
   color: white;
