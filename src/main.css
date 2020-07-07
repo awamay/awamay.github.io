@@ -5,6 +5,9 @@ body {
   /* */
 }
 
+
+
+
 .second-bg{
   background-image: url("../images/bg2.jpeg");
   background-repeat: no-repeat;
@@ -57,9 +60,16 @@ body {
 }
 
 .please{
-  width: 70%;
+  width: 90%;
   margin: auto;
   
+}
+
+@media screen and (min-width: 700px){
+  .please{
+    width: 70%;
+    margin: auto;
+  }
 }
 
 main.container{
